@@ -1,4 +1,4 @@
-USE pessoas_db;
+CREATE DATABASE pessoas_db;
 
 CREATE TABLE pessoas (
     cpf CHAR(11) PRIMARY KEY,
