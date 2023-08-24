@@ -1,5 +1,7 @@
 CREATE DATABASE pessoas_db;
 
+USE pessoas_db;
+
 CREATE TABLE pessoas (
     cpf CHAR(11) PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
