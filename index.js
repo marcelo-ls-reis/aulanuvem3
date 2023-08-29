@@ -8,7 +8,7 @@ const port = 80;
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: '189.90.140.39',
+  host: '34.171.93.51',
   user: 'root',
   password: 'qwe123!!',
   database: 'pessoas_db'
